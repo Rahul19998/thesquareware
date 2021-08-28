@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.sidenav {
+  height: 100vh;
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  padding-left: 10px;
+  background-color: #ffffff;
+  transition: 0.5s ease;
+  overflow-x: hidden;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.logoicon{
+ width: 32px;
+ height: 32px;
+ border-radius: 2px;
+ background-color: #1252AE;
+ ;
+}
+
+.sidenav a {
+  font-size: 34px;
+  font-family: Roboto;
+  font-weight: 700;
+  padding: 10px 0 0 10px;
+  text-decoration: none;
+  color: #c4c4c4;
+}
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.smalltiletext{
+ color: #ffffff;
+ font-weight: 700;
+ font-size: 34px;
+}
+
+.footerTile{
+  border-radius: 16px;
+  background-color:#1252AE;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
